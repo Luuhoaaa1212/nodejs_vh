@@ -1,0 +1,35 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "watch" :"node-sass --watch src/resources/scss/ --output src/public/css/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luuhoaaa1212/nodejs_vh.git"
+  },
+  "keywords": [
+    "nodejs_vh"
+  ],
+  "author": "viethoa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luuhoaaa1212/nodejs_vh/issues"
+  },
+  "homepage": "https://github.com/Luuhoaaa1212/nodejs_vh#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.1.2",
+    "morgan": "^1.10.0",
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.0.1"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "sass": "^1.64.2"
+  }
+}
